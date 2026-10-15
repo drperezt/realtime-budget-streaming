@@ -1,0 +1,7 @@
+# Entorno virtual de Python
+venv/
+__pycache__/
+*.pyc
+
+# Docker y archivos temporales
+.DS_Store
