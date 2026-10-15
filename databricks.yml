@@ -1,0 +1,11 @@
+bundle:
+  name: budget_financial_pipeline
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    default: true
+    workspace:
+      host: https://dbc-38e68e4b-e849.cloud.databricks.com
